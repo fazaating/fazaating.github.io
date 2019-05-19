@@ -1,0 +1,72 @@
+/* Start Body */
+body {
+    background-color: gainsboro;
+    color: black;
+    font-family: Helvetica, Arial, sans-serif
+    font-size: 16px;
+    line-hight: 1.5em;
+    margin: 0;
+    padding: 0;
+ }
+/* End Body */
+
+/* Start Debug */
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-grey {
+    background-color: grey;
+}
+
+.bg-aliceblue {
+    background-color: aliceblue;
+}
+
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+
+.container {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+/* End Container */
+
+/* Start Logo */
+.logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Menu Primer */
+.menu-primer ul {
+    background-color: aliceblue;
+    border-radius: 4px;
+    box-shadow:
+        0 3px 5px -1px rgba(0,0,0.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0.12);
+}
+
+.menu-primer li {
+    border-right: 1px solid #222222;
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: grey;
+    font-size: 13px;
+    
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+}
+/* End Menu Primer */
